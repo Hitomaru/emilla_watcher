@@ -1,4 +1,4 @@
-defmodule EmillaWatcher.Routed do
+defmodule EmillaWatcher.Router do
   use Plug.Router
   plug :match
   plug :dispatch
